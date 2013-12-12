@@ -18,19 +18,10 @@
 					<plugin>
 						<groupId>org.sonatype.plugins</groupId>
 						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.4.4</version>
-						<executions>
-							<execution>
-								<id>default-deploy</id>
-								<phase>deploy</phase>
-								<goals>
-									<goal>deploy</goal>
-								</goals>
-							</execution>
-						</executions>
+						<version>1.4.8</version>
 						<configuration>
 							<serverId>nexus-releases</serverId>
-							<nexusUrl>http://192.168.0.13:8081/nexus/</nexusUrl>
+							<!-- <nexusUrl>http://192.168.0.13:8081/nexus/</nexusUrl> -->
 							<skipStaging>true</skipStaging>
 						</configuration>
 					</plugin>
