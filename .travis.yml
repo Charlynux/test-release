@@ -1,11 +1,11 @@
 language: java
 
 before_install:
-	- echo "before_install"
+   - echo "before_install"
 before_script:
-	- echo "before_script"
+   - echo "before_script"
 after_success:
-	- echo "after_success"
-	- pwd
-	- ls -l
-	- sudo echo "test sudo"
+   - echo "after_success"
+   - pwd
+   - ls -l
+   - sudo echo "test sudo"
