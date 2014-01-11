@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-global:
-    secure: "mPOz8lc6BZc4qXm6YOJ7KPFv0pRQh/+joeVBYajLkzM8dbGsDpJ6qD5YKd/BRZN9YjgIGVz4A5uoUtnDN0ar8TcrzWHaSrXbkJNS24E053Zlzcz6/nyZfwxKzldms0Kt5crl0i3CnLPdeO7WVWW5CtxCzcAyzDe0IIt9H/YD3fE="
-     secure: "LnzGEJeO/Vzgdmp4gD3ST+amrLz0fvrWRCE0mCZpsyn4jgRX3IP95MiFg2TqhS7QyXMmZNklOCSpkaS2i92iCf+HTM4S5HgbhGJR+lSvVKhs8CA+VvRdV5WrSnDIUkcD8L894lXnWknl0hcD51CVJkdhGvPrxeTyWYaZwl2zEiw="
-     secure: "WLzY+/fcICdG7eo2gL0FHTL2oI52AIhzNCCfMKtZ/jWLmHVrTmODaD/8VDE1KmXJVA70WkyT/Qk1ABtN8vRGOCxzwK2Olovi386gQuOnqZL4h4qAIcD5YH6IfVpbrgTemOXYmUom2WVJP2GIOHisfvxOvU/UnpgkT+WMhp/VVCs="
+env:
+  global:
+   - secure: "mPOz8lc6BZc4qXm6YOJ7KPFv0pRQh/+joeVBYajLkzM8dbGsDpJ6qD5YKd/BRZN9YjgIGVz4A5uoUtnDN0ar8TcrzWHaSrXbkJNS24E053Zlzcz6/nyZfwxKzldms0Kt5crl0i3CnLPdeO7WVWW5CtxCzcAyzDe0IIt9H/YD3fE="
+   - secure: "LnzGEJeO/Vzgdmp4gD3ST+amrLz0fvrWRCE0mCZpsyn4jgRX3IP95MiFg2TqhS7QyXMmZNklOCSpkaS2i92iCf+HTM4S5HgbhGJR+lSvVKhs8CA+VvRdV5WrSnDIUkcD8L894lXnWknl0hcD51CVJkdhGvPrxeTyWYaZwl2zEiw="
+   - secure: "WLzY+/fcICdG7eo2gL0FHTL2oI52AIhzNCCfMKtZ/jWLmHVrTmODaD/8VDE1KmXJVA70WkyT/Qk1ABtN8vRGOCxzwK2Olovi386gQuOnqZL4h4qAIcD5YH6IfVpbrgTemOXYmUom2WVJP2GIOHisfvxOvU/UnpgkT+WMhp/VVCs="
 
 language: java
 
