@@ -7,41 +7,14 @@
 	<name>helloworld</name>
 
 	<properties>
-		<jdk.version>1.6</jdk.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
 		<logback.version>1.0.13</logback.version>
 	</properties>
 
-	<profiles>
-		<profile>
-			<id>releases</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.sonatype.plugins</groupId>
-						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.4.8</version>
-						<configuration>
-							<serverId>nexus-releases</serverId>
-							<!-- <nexusUrl>http://192.168.0.13:8081/nexus/</nexusUrl> -->
-							<skipStaging>true</skipStaging>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
-
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
-				<configuration>
-					<source>${jdk.version}</source>
-					<target>${jdk.version}</target>
-				</configuration>
-			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -110,9 +83,9 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git@github.com:Charlynux/test-release.git</connection>
-		<url>scm:git:git@github.com:Charlynux/test-release.git</url>
-		<developerConnection>scm:git:git@github.com:Charlynux/test-release.git</developerConnection>
+		<connection>scm:git:ssh://git@github.com/Charlynux/test-release.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/Charlynux/test-release.git</developerConnection>
+		<url>git:ssh://git@github.com/Charlynux/test-release.git</url>
 		<tag>HEAD</tag>
 	</scm>
 </project>
