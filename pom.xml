@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>release.helloworld</groupId>
 	<artifactId>helloworld</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<name>helloworld</name>
 
 	<properties>
@@ -85,6 +85,6 @@
 		<connection>scm:git:ssh://git@github.com/Charlynux/test-release.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/Charlynux/test-release.git</developerConnection>
 		<url>git:ssh://git@github.com/Charlynux/test-release.git</url>
-		<tag>v0.0.3</tag>
+		<tag>HEAD</tag>
 	</scm>
 </project>
